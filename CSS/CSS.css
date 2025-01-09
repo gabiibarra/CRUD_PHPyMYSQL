@@ -1,0 +1,178 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #24303c;;
+}
+
+.form-inicio{
+    width: 500px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    border: 2px solid #1f53c5;
+
+}
+
+.form-inicio h1 {
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.user{
+  width: 100%;
+  background: #24303c;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #1f53c5;
+  font-family: 'calibri';
+  font-size: 18px;
+  color: white;
+}
+
+.form-inicio .btn {
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.boton{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.boton button{
+    width: 150px;
+    background:#1f53c5;
+    border: 2px solid #1f53c5;
+    padding: 10px;
+    color: #FFFFFF;
+    display: block;
+    margin: 25px auto 0 auto; 
+    text-align: center;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.form-inicio p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.form-db{
+    width: 800px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    border: 2px solid #1f53c5;
+
+}
+
+.form-db h1 {
+    margin-top: 5px; 
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.form-db .user{
+    width: 27%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+
+}
+
+.form-db .btn{
+    width: 16%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-family: 'calibri';
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.table-container {
+    border: 1px solid #1f53c5;
+    border-radius: 1px;
+    overflow: hidden;
+    margin: 20px auto;
+    font-family: 'calibri';
+    font-size: 18px;
+    width: 100%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #1f53c5;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #35569e;
+}
+
+.actions a {
+    margin-right: 5px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.form-inicio h2{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.form-inicio .b1{
+    width: 30%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-family: 'calibri';
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 4px;
+    
+}
+
+.form-inicio a{
+    color: #FFFFFF;
+}
+
+.error{
+    font-size: 18px;
+    color: #FFFFFF;
+    text-align: center;
+}
